@@ -172,7 +172,7 @@ var operation = prompt ("Enter Operation (+,-,*,/)")
 var secNumber = +prompt ("Enter Second Number")
 
 if (operation == "+"){
-    alert("The Addition is " + firstNumber + secNumber)
+    alert("The Addition is " + (firstNumber + secNumber))
 }
 else if (operation == "-"){
     alert("The Subtraction is " + firstNumber - secNumber)
